@@ -1,16 +1,17 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+import sys
+import scipy
+import numpy
+import matplotlib
+import pandas
+import sklearn
+print('Python: {}'.format(sys.version))
+# scipy
+print('scipy: {}'.format(scipy.__version__))
+# numpy
+print('numpy: {}'.format(numpy.__version__))
+# matplotlib
+print('matplotlib: {}'.format(matplotlib.__version__))
+# pandas
+print('pandas: {}'.format(pandas.__version__))
+# scikit-learn
+print('sklearn: {}'.format(sklearn.__version__))
